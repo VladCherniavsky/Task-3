@@ -1,0 +1,6 @@
+C:\Users\Влад\Documents\GitHub\Task-3\TelephoneExchange\TelephoneExchange\bin\Debug\TelephoneExchange.exe.config
+C:\Users\Влад\Documents\GitHub\Task-3\TelephoneExchange\TelephoneExchange\obj\Debug\TelephoneExchange.csprojResolveAssemblyReference.cache
+C:\Users\Влад\Documents\GitHub\Task-3\TelephoneExchange\TelephoneExchange\bin\Debug\TelephoneExchange.exe
+C:\Users\Влад\Documents\GitHub\Task-3\TelephoneExchange\TelephoneExchange\bin\Debug\TelephoneExchange.pdb
+C:\Users\Влад\Documents\GitHub\Task-3\TelephoneExchange\TelephoneExchange\obj\Debug\TelephoneExchange.exe
+C:\Users\Влад\Documents\GitHub\Task-3\TelephoneExchange\TelephoneExchange\obj\Debug\TelephoneExchange.pdb
