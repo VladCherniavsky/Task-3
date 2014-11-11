@@ -11,11 +11,11 @@ namespace TelephoneExchange
     {
         public event EventHandler ClientCreated;
 
-        public Client CreateNewClient(string name, string surname, string dateOfBirth, string address)
+        public Client CreateNewClient(string name, string surname, DateTime dateOfBirth, string address)
         {
             Client client = new Client(name, surname, dateOfBirth, address);
 
-            OnClientCreated();
+            OnClientCreated(EventArgs.Empty);
 
             return client;
         }
@@ -26,9 +26,6 @@ namespace TelephoneExchange
             if (handler != null)
                 handler(this, e);
         }
-        private void OnClientCreated()
-        {
-            OnClientCreated(EventArgs.Empty);
-        }
+        
     }
 }
