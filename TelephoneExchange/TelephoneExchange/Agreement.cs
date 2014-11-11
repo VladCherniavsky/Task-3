@@ -9,6 +9,6 @@ namespace TelephoneExchange
     public class Agreement
     {
         public int NumberOfAgreement { get; set; }
-        
+        public string DateOfAgreement { get; set; }
     }
 }

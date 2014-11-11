@@ -12,5 +12,15 @@ namespace TelephoneExchange
         public string SecondName { get; set; }
         public string DateOfBirth { get; set; }
         public string Address { get; set; }
+
+        public Client(string name, string surname, string dateOfBirth, string address)
+        {
+            FirstName = name;
+            SecondName = surname;
+            DateOfBirth = name;
+            Address = address;
+        }
+
+        
     }
 }

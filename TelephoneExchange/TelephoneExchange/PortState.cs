@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace TelephoneExchange
 {
-    public class Port
+    enum PortState
     {
+        Busy,
+        Plagged,
+        UnPlagged,
+        Broken
     }
 }

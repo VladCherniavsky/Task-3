@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TelephoneExchange
 {
-    class Terminal
+    public class Terminal
     {
     }
 }
