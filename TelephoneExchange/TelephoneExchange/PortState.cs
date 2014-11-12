@@ -9,8 +9,8 @@ namespace TelephoneExchange
     enum PortState
     {
         Busy,
-        Plagged,
-        UnPlagged,
+        Connected,
+        Disconnected,
         Broken
     }
 }
