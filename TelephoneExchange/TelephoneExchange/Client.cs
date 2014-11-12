@@ -21,6 +21,6 @@ namespace TelephoneExchange
             Address = address;
         }
 
-        
+
     }
 }

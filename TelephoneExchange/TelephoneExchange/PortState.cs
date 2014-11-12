@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TelephoneEchange
+namespace TelephoneExchange
 {
     public enum PortState
     {
-        Busy,
+        LineIsEngaged,
         Connected,
-        Disconnected,
-        Broken
+        Disconnected
     }
 }
