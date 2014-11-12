@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace TelephoneExchange
 {
-    public class Port
+    public class Abonent
     {
-        public PortState PortState { get; set; }
+        public Port Port { get; set; }
+        public int PhoneNumber { get; set; }
+        public Terminal Terminal { get; set; }
     }
 }
