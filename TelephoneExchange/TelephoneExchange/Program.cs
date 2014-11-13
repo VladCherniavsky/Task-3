@@ -15,7 +15,7 @@ namespace TelephoneExchange
             factory.ClientCreated += (s, e) => Console.WriteLine("Client created");
 
 
-            Client c1 = factory.CreateNewClient("Igor", "vs", new DateTime(1996, 10, 25), "Limozha");
+            Client c1 = factory.CreateNewClient("Igor", "vs", new DateTime(1996, 10, 25), "Limozha", new Terminal(new Port(new PortState(),767993 )));
         }
     }
 }

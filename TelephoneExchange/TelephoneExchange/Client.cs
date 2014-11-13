@@ -12,13 +12,15 @@ namespace TelephoneExchange
         public string SecondName { get; set; }
         public DateTime DateOfBirth { get; set; }
         public string Address { get; set; }
+        public Terminal Terminal { get; set; }
 
-        public Client(string name, string surname, DateTime dateOfBirth, string address)
+        public Client(string name, string surname, DateTime dateOfBirth, string address, Terminal terminal)
         {
             FirstName = name;
             SecondName = surname;
             DateOfBirth = dateOfBirth;
             Address = address;
+            Terminal = terminal;
         }
 
 
