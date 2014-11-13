@@ -10,11 +10,13 @@ namespace TelephoneExchange
     {
         public int NumberOfAgreement { get; set; }
         public DateTime DateOfAgreement { get; set; }
+        public Tariff Tariff { get; set; }
 
-        public Agreement(int number, DateTime date)
+        public Agreement(int number, DateTime date,Tariff tariff )
         {
             NumberOfAgreement = number;
             DateOfAgreement = date;
+            Tariff = tariff;
         }
     }
 }
