@@ -14,6 +14,7 @@ namespace TelephoneExchange
         public Client Answerer { get; set; }
         public DateTime TimeOfStartCall { get; set; }
         public DateTime TimeOfFinishCall { get; set; }
+        public bool IsStartTalk { get; set; }
 
         public int DurationOfCall
         {

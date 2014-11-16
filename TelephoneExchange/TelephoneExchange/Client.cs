@@ -13,6 +13,7 @@ namespace TelephoneExchange
         public DateTime DateOfBirth { get; set; }
         public string Address { get; set; }
         public Terminal Terminal { get; set; }
+        public Agreement Agreement { get; set; }
 
         public Client(string name, string surname, DateTime dateOfBirth, string address, Terminal terminal)
         {
