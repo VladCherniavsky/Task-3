@@ -93,7 +93,7 @@ namespace TelephoneExchange
         /// <summary>
         /// Method simulates situation when one abonent answered on call
         /// </summary>
-        public void AnswerOnCall(/*int incomingNumber,int outgoingNumber*/)
+        public void AnswerOnCall(int incomingNumber,int outgoingNumber)
         {
             Call call = new Call();
             call.StartCall();

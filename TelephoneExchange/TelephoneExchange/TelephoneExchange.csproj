@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Agreement.cs" />
+    <Compile Include="Billing.cs" />
     <Compile Include="Call.cs" />
     <Compile Include="Client.cs" />
     <Compile Include="ClientFactory.cs" />
