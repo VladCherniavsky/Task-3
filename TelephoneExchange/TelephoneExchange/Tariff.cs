@@ -11,14 +11,12 @@ namespace TelephoneExchange
         public string Name { get; set; }
         public int CostOfMinute { get; set; }
         public DateTime CreationDate { get; set; }
-        public string NameOfClient { get; set; }
 
-        public Tariff(String name, int cost, DateTime dateTime, Client client)
+        public Tariff(String name, int cost, DateTime dateTime)
         {
             Name = name;
             CostOfMinute = cost;
             CreationDate = dateTime;
-            NameOfClient = client.SecondName;
         }
     }
 }

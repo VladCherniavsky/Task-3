@@ -10,9 +10,9 @@ namespace TelephoneExchange
     {
         public event EventHandler ClientCreated;
 
-        public Client CreateNewClient(string name, string surname, DateTime dateOfBirth, string address,Terminal terminal)
+        public Client CreateNewClient(string name, string surname, DateTime dateOfBirth, string address,Terminal terminal, Agreement agreement)
         {
-            Client client = new Client(name, surname, dateOfBirth, address, terminal);
+            Client client = new Client(name, surname, dateOfBirth, address, terminal, agreement);
 
             OnClientCreated(EventArgs.Empty);
 

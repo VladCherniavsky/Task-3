@@ -19,7 +19,7 @@ namespace TelephoneExchange
         /// </summary>
         public Tariff GetTariffByClient(Client client)
         {
-            return _history.Find(x => x.NameOfClient == client.SecondName);
+            return _history.Find(x => x.Name == client.SecondName);
         }
 
 

@@ -15,13 +15,14 @@ namespace TelephoneExchange
         public Terminal Terminal { get; set; }
         public Agreement Agreement { get; set; }
 
-        public Client(string name, string surname, DateTime dateOfBirth, string address, Terminal terminal)
+        public Client(string name, string surname, DateTime dateOfBirth, string address, Terminal terminal, Agreement agreement)
         {
             FirstName = name;
             SecondName = surname;
             DateOfBirth = dateOfBirth;
             Address = address;
             Terminal = terminal;
+            Agreement = agreement;
         }
 
 
